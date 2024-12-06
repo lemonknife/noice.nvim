@@ -12,6 +12,7 @@ end
 ---@alias Spinner
 ---| "aesthetic"
 ---| "arc"
+---| "arcFiraCode"
 ---| "arrow"
 ---| "arrow2"
 ---| "arrow3"
@@ -113,6 +114,7 @@ M.spinners = {
     interval = 80,
   },
   arc = { frames = { "◜", "◠", "◝", "◞", "◡", "◟" }, interval = 100 },
+  arcFiraCode = { frames = { "", "", "", "", "", "" }, interval = 100 },
   arrow = { frames = { "←", "↖", "↑", "↗", "→", "↘", "↓", "↙" }, interval = 100 },
   arrow2 = {
     frames = { "⬆️ ", "↗️ ", "➡️ ", "↘️ ", "⬇️ ", "↙️ ", "⬅️ ", "↖️ " },
